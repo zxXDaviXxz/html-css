@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: aquamarine;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 5px;
+        }
+        
+        header {
+            background-color: antiquewhite;
+            border-radius: 10px;
+            margin: 5px;
+            padding: 5px;
+        }
+
+        a {
+            text-decoration: none;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: #8b7575;
+        }
+        article > p:hover {
+            color: rgb(231, 49, 49);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding: 50px;
+            border-radius: 5px;
+            background-color: beige;
+        }
+        nav > a:hover {
+            background-color: red;
+            margin: 5px;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        main {
+            background-color: cadetblue;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            border-style: unset;
+            box-shadow: 1px 1px 1px 1px #00000091;
+        }
+
+        article {
+            background-color: rgb(104, 176, 179);
+            padding: 2px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+
+        aside {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: aqua;
+            text-align: center;
+        }
+
+        footer {
+            background-color: black;
+            text-align: center;
+            color: antiquewhite;
+            margin: 1px;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+        <h2>Noticia do ZarastrutAOficial</h2>
+        <article>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum dolores officia quae ipsam quam, optio eius perspiciatis ullam minus aspernatur velit, temporibus fugit non quo consectetur vel, libero perferendis voluptas?
+
+            <aside>
+                <p>Artigo escrito por Zé da Manga</p>
+            </aside>
+        </article>
+        <h2>Blue pen apenas</h2>
+        <article>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam deleniti unde ipsa debitis, fugiat aspernatur beatae sunt perferendis a, blanditiis commodi doloremque. Ipsam, saepe ab. Numquam error iure a et.
+
+            <p><a href="https://www.youtube.com/watch?v=Tw_IGPK4S_I&ab_channel=JoabManoelCanetaAzul" target="_blank">OH MY GOD I'T IS BLUE PEN</a></p>
+            <aside><p>Escrito por Blue pen</p></aside>
+        </article>
+
+        </section>
+
+    </main>
+    <footer>
+        Desenvolvido por Zé da Manga
+    </footer>
+</body>
+</html>

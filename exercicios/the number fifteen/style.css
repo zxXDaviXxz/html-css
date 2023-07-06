@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {
+    background-color: cornflowerblue;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    color: blue;
+    font-size: 17;
+    background-color: black;    
+}
+
+h2 {
+    color: aqua;
+}
+
+p {
+    text-align: justify;
+}

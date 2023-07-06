@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando linls</title>
+
+    <style>
+        /* SELETORES PERSONALIZADOS
+            CSS // HTML 
+            #  =  id
+            .  =  class
+            :  =  pseudo-class
+            :: =  pseudo-element
+            >  =  clildren (filho)
+        */
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: aqua;
+            text-decoration: none;
+            font-weight: bolder;
+        }
+
+        a:hover {
+            color: black;
+            text-align: center;
+            text-decoration: underline;
+        }
+        
+        a:active {
+            color: yellowgreen;
+        }
+
+        a::after {
+            content: ' [cuzinho]';
+            color: black;
+            font-weight: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalisado links</h1>
+    <ul>
+        <li><a href="https://www.instagram.com/zx_davi_xz/" target="_parent">instagram</a></li>
+        <li><a href="https://www.youtube.com/watch?v=pytgRDjhruk&ab_channel=JOTAP%C3%8A" target="_parent">musica</a></li>
+    </ul>
+    
+</body>
+</html>
